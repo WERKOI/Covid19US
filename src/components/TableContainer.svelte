@@ -1,8 +1,12 @@
 <script>
-    import TableFilter from './TableFilter.svelte';//импортируем TableFilter.svelte
-    import Table from './Table.svelte'; //импортируем Table.svelte
+    //импортируем TableFilter.svelte
+    import TableFilter from './TableFilter.svelte';
+    //импортируем Table.svelte
+    import Table from './Table.svelte'; 
 </script>
 <h1>Table Container</h1>
 
-<TableFilter /><!--вызов TableFilter-->
-<Table /><!--вызов Table-->
+<!-- вызов TableFilter -->
+<TableFilter />
+<!-- вызов Table -->
+<Table />
